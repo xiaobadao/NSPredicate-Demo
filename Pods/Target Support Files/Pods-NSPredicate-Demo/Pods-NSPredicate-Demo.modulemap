@@ -1,0 +1,6 @@
+framework module Pods_NSPredicate_Demo {
+  umbrella header "Pods-NSPredicate-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

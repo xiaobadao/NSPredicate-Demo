@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180C3F25202C2BEB00C2B451 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C3F24202C2BEB00C2B451 /* Student.m */; };
+		1840DD45203555D10091289E /* TimerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840DD44203555D10091289E /* TimerTool.m */; };
 		18A75FB81FF5CEDC00D80FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A75FB71FF5CEDC00D80FCF /* AppDelegate.m */; };
 		18A75FBB1FF5CEDC00D80FCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A75FBA1FF5CEDC00D80FCF /* ViewController.m */; };
 		18A75FBE1FF5CEDC00D80FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A75FBC1FF5CEDC00D80FCF /* Main.storyboard */; };
 		18A75FC01FF5CEDC00D80FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A75FBF1FF5CEDC00D80FCF /* Assets.xcassets */; };
 		18A75FC31FF5CEDC00D80FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A75FC11FF5CEDC00D80FCF /* LaunchScreen.storyboard */; };
 		18A75FC61FF5CEDC00D80FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A75FC51FF5CEDC00D80FCF /* main.m */; };
+		F8614C3C746080B64AE4A712 /* Pods_NSPredicate_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D82E786553EAC7AA3098B8 /* Pods_NSPredicate_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07D82E786553EAC7AA3098B8 /* Pods_NSPredicate_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSPredicate_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		180C3F23202C2BEB00C2B451 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		180C3F24202C2BEB00C2B451 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1840DD43203555D10091289E /* TimerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTool.h; sourceTree = "<group>"; };
+		1840DD44203555D10091289E /* TimerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTool.m; sourceTree = "<group>"; };
 		18A75FB31FF5CEDC00D80FCF /* NSPredicate-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSPredicate-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A75FB61FF5CEDC00D80FCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A75FB71FF5CEDC00D80FCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		18A75FC21FF5CEDC00D80FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A75FC41FF5CEDC00D80FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A75FC51FF5CEDC00D80FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C24B769CB2CD2C2453E45D5 /* Pods-NSPredicate-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSPredicate-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSPredicate-Demo/Pods-NSPredicate-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F1EC0012BE06978217BFF356 /* Pods-NSPredicate-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSPredicate-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSPredicate-Demo/Pods-NSPredicate-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8614C3C746080B64AE4A712 /* Pods_NSPredicate_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				18A75FB51FF5CEDC00D80FCF /* NSPredicate-Demo */,
 				18A75FB41FF5CEDC00D80FCF /* Products */,
+				525AD6A8691F10BEFB649927 /* Pods */,
+				FB579831EF0E94A21DAC0777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +75,10 @@
 				18A75FB71FF5CEDC00D80FCF /* AppDelegate.m */,
 				18A75FB91FF5CEDC00D80FCF /* ViewController.h */,
 				18A75FBA1FF5CEDC00D80FCF /* ViewController.m */,
+				1840DD43203555D10091289E /* TimerTool.h */,
+				1840DD44203555D10091289E /* TimerTool.m */,
+				180C3F23202C2BEB00C2B451 /* Student.h */,
+				180C3F24202C2BEB00C2B451 /* Student.m */,
 				18A75FBC1FF5CEDC00D80FCF /* Main.storyboard */,
 				18A75FBF1FF5CEDC00D80FCF /* Assets.xcassets */,
 				18A75FC11FF5CEDC00D80FCF /* LaunchScreen.storyboard */,
@@ -71,6 +88,23 @@
 			path = "NSPredicate-Demo";
 			sourceTree = "<group>";
 		};
+		525AD6A8691F10BEFB649927 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC0012BE06978217BFF356 /* Pods-NSPredicate-Demo.debug.xcconfig */,
+				9C24B769CB2CD2C2453E45D5 /* Pods-NSPredicate-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB579831EF0E94A21DAC0777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D82E786553EAC7AA3098B8 /* Pods_NSPredicate_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A75FC91FF5CEDC00D80FCF /* Build configuration list for PBXNativeTarget "NSPredicate-Demo" */;
 			buildPhases = (
+				878D0081E20630494E8CB05F /* [CP] Check Pods Manifest.lock */,
 				18A75FAF1FF5CEDC00D80FCF /* Sources */,
 				18A75FB01FF5CEDC00D80FCF /* Frameworks */,
 				18A75FB11FF5CEDC00D80FCF /* Resources */,
+				5B71A9E93970F5E5F3F5E6CE /* [CP] Embed Pods Frameworks */,
+				8F79CF793C054F261F7F197A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B71A9E93970F5E5F3F5E6CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NSPredicate-Demo/Pods-NSPredicate-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSPredicate-Demo/Pods-NSPredicate-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878D0081E20630494E8CB05F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NSPredicate-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F79CF793C054F261F7F197A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSPredicate-Demo/Pods-NSPredicate-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18A75FAF1FF5CEDC00D80FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -144,7 +235,9 @@
 			files = (
 				18A75FBB1FF5CEDC00D80FCF /* ViewController.m in Sources */,
 				18A75FC61FF5CEDC00D80FCF /* main.m in Sources */,
+				1840DD45203555D10091289E /* TimerTool.m in Sources */,
 				18A75FB81FF5CEDC00D80FCF /* AppDelegate.m in Sources */,
+				180C3F25202C2BEB00C2B451 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +369,7 @@
 		};
 		18A75FCA1FF5CEDC00D80FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EC0012BE06978217BFF356 /* Pods-NSPredicate-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +383,7 @@
 		};
 		18A75FCB1FF5CEDC00D80FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C24B769CB2CD2C2453E45D5 /* Pods-NSPredicate-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
